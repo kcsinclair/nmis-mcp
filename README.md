@@ -79,6 +79,8 @@ Add an mcp servers section or just an additional for NMIS, showing the MCP_DOCKE
 }
 ```
 
+Then ask Claude for status of events of one or more NMIS nodes
+![NMIS MCP Demo](nmis-mcp-demo.png)
 
 ## MCP Tools
 
