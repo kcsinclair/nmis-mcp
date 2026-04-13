@@ -473,12 +473,12 @@ sub tool_list_nodes
 	my ($args, $nmisng) = @_;
 
 	my $model = $nmisng->get_nodes_model(
+		filter => { 'activated.NMIS' => 1, 'configuration.active' => 1 },
 		fields_hash => {
 			name                   => 1,
 			uuid                   => 1,
 			'configuration.group'  => 1,
 			'configuration.host'   => 1,
-			'activated.NMIS'       => 1,
 		}
 	);
 
