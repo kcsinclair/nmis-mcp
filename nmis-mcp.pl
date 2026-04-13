@@ -200,7 +200,7 @@ my @TOOL_DEFINITIONS = (
 	},
 	{
 		name        => "nmis_get_node_status",
-		description => "Get detailed status and health metrics for a specific NMIS node, including reachability, availability, response time, system description, and uptime.",
+		description => "Get detailed status and health metrics for a specific NMIS node, including overall status (reachable/degraded/unreachable), reachability, availability, response time, system description, and uptime.",
 		inputSchema => {
 			type       => "object",
 			properties => {
